@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Tro na Mosca Game. " />
+    <meta name="keywords" content="game,mosca,html5,css,framework,sass,NES,8bit" />
+    <meta name="author" content="Gabriel da Vitória" />
+    
+    <title>Tiro na Mosca Game</title>
+
+    <link href="./css/nes.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tiro na Mosca Game" />
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41640153-4"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag("config", "UA-41640153-4");</script>
+  </head>
+
+  <body>
+    <header>
+      <h1><i class="snes-jp-logo brand"></i>Tiro na Mosca</h1>
+      <p>Game.</p>
+    </header>
+    
+    <a class="github-link" href="" target="_blank">
+      <p class="balloon from-right">Olá vamos jogar  </p>
+      <i class="octocat"></i>
+    </a>
+
+
+
+
+
+
+    <footer class="footer">
+      <p>
+        <a href="#" target="_blank">Company</a>
+        <span>-</span>
+        <a href="#" target="_blank">@OnVictory</a>
+      </p>
+    </footer>
+  </body>
+  <script>
+    var link = document.querySelector("a.github-link");
+    var octocat = document.querySelector("a.github-link > i.octocat");
+    link.addEventListener("mouseover", function() {
+      octocat.classList.add("animate");
+    });
+    link.addEventListener("mouseout", function() {
+      octocat.classList.remove("animate");
+    });
+  </script>
+</html>
